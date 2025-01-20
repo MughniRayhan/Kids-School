@@ -126,6 +126,88 @@ nav {
   width: 468px;
 }
 
+/* curruculam-section */
+.curruculam-section {
+  text-align: center;
+  padding: 60px 0px;
+  background: url("./assets/bg.png");
+}
+.section-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.cards {
+  width: 1160px;
+  margin: 80px auto;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  text-align: center;
+}
+.card {
+  border-radius: 18px;
+  box-shadow: 0px 0px 28px 0.94px rgba(0, 0, 0, 0.05);
+  padding: 50px;
+}
+.card-1 {
+  background: linear-gradient(#def5ff, white);
+  border: 1px solid #def5ff;
+}
+.card-2 {
+  background: linear-gradient(#fff4dc, white);
+  border: 1px solid #fff4dc;
+}
+.card-3 {
+  background: linear-gradient(#eee1ff, white);
+  border: 1px solid #f2e8ff;
+}
+.card img {
+  width: 136px;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #202020;
+  margin: 32px 0px;
+}
+.card-description {
+  color: #808080;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.card a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.card-1 a {
+  color: #64c8ff;
+}
+.card-2 a {
+  color: #f0aa00;
+}
+.card-1 a {
+  color: #8700ff;
+}
+
+.arrow-section {
+  display: flex;
+  gap: 10px;
+  width: 130px;
+  margin: 0px auto;
+}
+.arrow {
+  color: white;
+  background: orange;
+  padding: 17px 20px;
+  border-radius: 50%;
+  transition: 1s;
+}
+.arrow:hover {
+  background: rgba(31, 30, 30, 0.874);
+}
 /* small device */
 @media only screen and (max-width: 576px) {
   /* navbar */
