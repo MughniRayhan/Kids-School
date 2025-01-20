@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .quicksand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -11,10 +16,22 @@
 .secondary-color {
   color: rgba(1, 172, 253, 1);
 }
-* {
-  margin: 0;
-  padding: 0;
+
+.primary-btn {
+  background: black;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 10px 47px;
+  transition: 0.5s;
+  width: 197px;
 }
+.primary-btn:hover {
+  background: orange;
+}
+
 /* Navbar */
 nav {
   height: 102px;
@@ -74,17 +91,6 @@ nav {
   color: #95b226;
 }
 
-.primary-btn {
-  background: black;
-  border: none;
-  border-radius: 12px;
-  color: white;
-  font-size: 1.25rem;
-  font-weight: 500;
-  padding: 10px 47px;
-  transition: 0.8s;
-  width: 197px;
-}
 .contact-btn {
   background: orange;
 }
@@ -116,6 +122,10 @@ nav {
   margin-bottom: 24px;
 }
 
+.banner-img img {
+  width: 468px;
+}
+
 /* small device */
 @media only screen and (max-width: 576px) {
   /* navbar */
@@ -132,5 +142,42 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;
+  }
+  /* banner */
+  .banner {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    width: 100%;
+    gap: 20px;
+    padding: 20px 0px;
+  }
+  .banner-container {
+    order: 2;
+    margin: 0px auto;
+    text-align: center;
+    width: 357px;
+  }
+  .banner-title {
+    font-size: 2rem;
+    margin: 18px 0px;
+  }
+  .banner-description {
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+  }
+  .banner-img {
+    order: 1;
+    margin: 0px auto;
+  }
+  .banner-img img {
+    width: 336px;
+  }
+  .primary-btn {
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 16px;
   }
 }
