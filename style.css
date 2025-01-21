@@ -354,6 +354,7 @@ nav {
   .curruculam-section {
     padding-bottom: 0px;
     margin-bottom: 0px;
+    width: 100%;
   }
   .section-title {
     font-size: 26px;
@@ -393,6 +394,7 @@ nav {
     margin-top: 0px auto;
     padding: 0px 16px;
     padding-bottom: 40px;
+    width: 100%;
   }
   .story-cards {
     width: 100%;
@@ -401,13 +403,13 @@ nav {
     display: none;
   }
   .other-stories {
-    width: 90%;
+    width: 80%;
     grid-template-columns: repeat(2, 1fr);
     margin: 0px auto;
   }
   .story {
     margin: 0px auto;
-    width: 173px;
+    width: 100%;
     border-radius: 9px;
     margin: 0px auto;
   }
@@ -425,7 +427,7 @@ nav {
     border-radius: 28px;
     padding: 6px 11px;
     font-size: 9px;
-    bottom: 12%;
+    bottom: 10%;
     left: 13%;
   }
   /* 
