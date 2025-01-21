@@ -351,7 +351,10 @@ nav {
     font-size: 16px;
   }
   /* curruculam-section */
-
+  .curruculam-section {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
   .section-title {
     font-size: 26px;
   }
@@ -384,4 +387,58 @@ nav {
   .arrow-section {
     display: none;
   }
+
+  /* story section */
+  .stories-section {
+    margin-top: 0px auto;
+    padding: 0px 16px;
+    padding-bottom: 40px;
+  }
+  .story-cards {
+    width: 100%;
+  }
+  .story-1 {
+    display: none;
+  }
+  .other-stories {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* 
+  .stories-img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+ 
+  .other-stories {
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+  .story {
+    background: white;
+    border-radius: 16px;
+    padding-bottom: 30px;
+  }
+  .story-title {
+    font-size: 15px;
+    font-weight: bold;
+    width: 214px;
+    margin: auto;
+  }
+  .story-btn {
+    background: #95b226;
+    border: none;
+    border-radius: 47px;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    bottom: 8%;
+    left: 15%;
+    transition: 0.5s;
+  } */
 }
