@@ -447,7 +447,7 @@ footer {
     display: none;
   }
   .other-stories {
-    width: 80%;
+    width: calc(80% - 10px);
     grid-template-columns: repeat(2, 1fr);
     margin: 0px auto;
   }
@@ -473,5 +473,12 @@ footer {
     font-size: 9px;
     bottom: 10%;
     left: 13%;
+  }
+  /* footer */
+  .footer {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 60px 20px;
+    gap: 30px;
   }
 }
