@@ -340,6 +340,10 @@ footer {
   margin-top: 30px;
   width: 40px;
 }
+.marquee-section {
+  padding: 30px;
+  font-size: 18px;
+}
 /* small device */
 @media only screen and (max-width: 576px) {
   /* navbar */
@@ -447,7 +451,7 @@ footer {
     display: none;
   }
   .other-stories {
-    width: calc(80% - 10px);
+    width: 80%;
     grid-template-columns: repeat(2, 1fr);
     margin: 0px auto;
   }
@@ -464,7 +468,7 @@ footer {
   .story-title {
     font-size: 9px;
     font-weight: bold;
-    width: 117px;
+    width: 107px;
     text-align: left;
   }
   .story-btn {
